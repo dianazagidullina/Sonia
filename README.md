@@ -1,4 +1,6 @@
 # Sonia
-Neural network creates music. \n
+Neural network creates music.
+
+
 План работы:
 #17 февраля:
