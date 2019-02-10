@@ -3,4 +3,4 @@ Neural network creates music.
 
 План работы:
 
-# 17 февраля:
+# До 17 февраля:
