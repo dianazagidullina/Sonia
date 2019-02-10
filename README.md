@@ -4,9 +4,13 @@ Neural network creates music.
 План работы:
 
 # До 17 февраля:
-  Выбрать один из возможных подходов к генерации музыки. Для этого разобраться в статьях("This Time with Feeling: Learning
-Expressive Musical Perfomance" и "SampleRNN: An Unconditional End-To-End Neural Audio Generation Model"), понять в чем
-особенности каждого подхода, какие плюсы и минусы, определиться что для меня наиболее интересно.
+  Выбрать один из возможных подходов к генерации музыки. Для этого разобраться в статьях.
+  
+  1) "This Time with Feeling: Learning Expressive Musical Perfomance" 
+  
+  2) "SampleRNN: An Unconditional End-To-End Neural Audio Generation Model")
+  
+  Понять в чем особенности каждого подхода, какие плюсы и минусы, определиться что для меня наиболее интересно.
 # До 24 февраля:
   Разобраться со входными данными, то есть:
   
