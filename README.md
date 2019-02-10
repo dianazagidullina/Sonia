@@ -1,5 +1,5 @@
 # Sonia
-Neural network creates music.
+Neural network composes music.
 
 # План:
 
