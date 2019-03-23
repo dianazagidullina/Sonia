@@ -18,7 +18,7 @@ from torch import optim
 import torch.nn.functional as F
 import numpy as np
 from midi2audio import FluidSynth
-
+import os
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MAX_LENGTH = 100000000
 max_dur_note = 4
@@ -111,9 +111,9 @@ def evaluate(input_rand, decoder, max_length=MAX_LENGTH, most_prob=5):
 
 
 def get_sample():
-    print("Enter seed")
+    print("Enter seed in the range 1-25")
     seed = int(input())
-    decoder = torch.load(os.getcwd() + 'models_Sonya/decoder_1').to(device)
+    decoder = torch.load(os.getcwd() + '/models_Sonya/decoder_1').to(device)
     input_rand = []
     for i in range(0, hidden_size):
         input_rand.append(seed)
